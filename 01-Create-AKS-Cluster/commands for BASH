@@ -1,1 +1,7 @@
+# connect to the cluster
 behrooz@Azure:~$ az aks get-credentials --resource-group aks-cloudrampup-rg1 --name aks_cluster_cloudrampup_demo1
+
+
+# List Kubernetes Worker Nodes
+kubectl get nodes 
+kubectl get nodes -o wide
